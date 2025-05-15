@@ -3,6 +3,7 @@ return {
   {
     'lervag/vimtex',
     ft = { 'tex' },
+    lazy = false,
     init = function()
       -- Optional: configure VimTeX here
       vim.g.vimtex_view_method = 'skim' -- or 'skim' on Mac, or leave unset
