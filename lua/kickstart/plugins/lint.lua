@@ -8,8 +8,6 @@ return {
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
         python = { 'ruff' },
-        cpp = { 'clang-tidy' },
-        c = { 'clang-tidy' },
         lua = { 'luacheck' },
         rust = { 'cargo' },
         tex = { 'chktex' },
